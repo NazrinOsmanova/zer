@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+    background-color: rgb(153, 130, 238);
+    padding: 30px;
+    height: 100vh;
+}
+
+.dices {
+    width: 70%;
+    margin: 0px auto;
+    padding: 60px 40px;
+    margin-top: 150px;
+}
+
+.dices .dice {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dices .dice img {
+    width: 200px;
 }
